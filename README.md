@@ -16,7 +16,8 @@ ________________________________________________________________________________
 		  "gps_reader.c"
       INCLUDE_DIRS 
       	"."
-	)```
+	)
+  ```
 3. While flashing, before you connect the usb cable to the ESP board, press and hold the boot button, connect the cable then release, makes the board enter boot mode.
 4. If you have already tried flashing other zigbee firmwares before and want to start over again, you should erase the chip's old firmware before uploading new, cause even if you change             firmware, the zigbee defined pan id and address remains unchanged. I like to do it by going in `eim > Open Dashboard > Open IDF Terminal (1st Option)` then type `esptool.py --chip YOUR_CHIP -    -  port YOUR_PORT erase_flash`.
    For Windows, the com port would be like `COM5`, for Linux it would be of the format `/dev/ttyUSB0`
