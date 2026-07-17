@@ -1,4 +1,4 @@
-# ZPS_ZIgbee_GPS_Comms
+# ZPS_ZIgbee_GPS_Node
 A Zigbee based WSN node built using ESP32-C6 and NEO-7M GPS modules
 
 If you tried to make a project with zigbee outside the built-in examples from arduino ide or esp ide, you know it is frustratingly cumbersome. I went through it and hence sharing some of my experience so you don't have to go through same.
